@@ -7,9 +7,8 @@ string s="2356+**5/2-";
 
 for(int i=0;i<s.length();i++){
     char c=s[i];
-    if(c>=48 && c<=57){
-             int num=c-'0';
-             st.push(num);
+    if(c>='0' && c<='9'){
+             st.push(c);
          }
         else{
             int a=st.top();
